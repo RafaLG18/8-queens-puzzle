@@ -1,10 +1,20 @@
-# Problema das 8 Rainhas
+# Problema das 8 Rainhas ♛
 
 Solução para o problema das 8 rainhas utilizando busca em profundidade (DFS) com backtracking.
 
+## Índice
+
+- [Formulação do Problema](#formulação-do-problema)
+- [Técnica Utilizada: Busca em Profundidade com Backtracking](#técnica-utilizada-busca-em-profundidade-com-backtracking)
+- [Estrutura do Código](#estrutura-do-código)
+- [Principais Trechos do Código](#principais-trechos-do-código)
+- [Resultados Obtidos](#resultados-obtidos)
+- [Como Executar](#como-executar)
+- [Como a IA Auxiliou no Desenvolvimento](#como-a-ia-auxiliou-no-desenvolvimento)
+
 ---
 
-## Formulação do Problema
+## ♟️ Formulação do Problema
 
 O problema das 8 rainhas consiste em posicionar 8 rainhas em um tabuleiro de xadrez 8×8 de forma que nenhuma rainha ataque outra. Uma rainha ataca outra quando estão na mesma linha, mesma coluna ou mesma diagonal.
 
@@ -21,7 +31,7 @@ O problema aceita um tabuleiro vazio ou com até 3 rainhas pré-colocadas nas pr
 
 ---
 
-## Técnica Utilizada: Busca em Profundidade com Backtracking
+## 💡 Técnica Utilizada: Busca em Profundidade com Backtracking
 
 O algoritmo utilizado é a **busca em profundidade (DFS)** com **backtracking**.
 
@@ -42,7 +52,7 @@ Coluna 1: tenta linha 1
 
 ---
 
-## Estrutura do Código
+## 📁 Estrutura do Código
 
 ```
 ├── main.py           # Ponto de entrada, interface com o usuário
@@ -54,7 +64,7 @@ Coluna 1: tenta linha 1
 
 ---
 
-## Principais Trechos do Código
+## 💻 Principais Trechos do Código
 
 ### Classe Coluna (`src/no.py`)
 Representa uma rainha posicionada em uma coluna e linha específicas.
@@ -118,7 +128,7 @@ else:
 
 ---
 
-## Resultados Obtidos
+## ✅ Resultados Obtidos
 
 ### Tabuleiro vazio
 ```
@@ -184,7 +194,7 @@ Solução: [1, 6, 8, 3, 7, 4, 2, 5]
 
 ---
 
-## Como Executar
+## ▶️ Como Executar
 
 ```bash
 python3 main.py
@@ -194,7 +204,7 @@ Siga as instruções no terminal: informe quantas rainhas deseja pré-colocar (0
 
 ---
 
-## Como a IA Auxiliou no Desenvolvimento
+## 🤖 Como a IA Auxiliou no Desenvolvimento
 
 O desenvolvimento contou com o auxílio do **Claude (Anthropic)** como ferramenta de revisão e aprendizado. A IA não escreveu o código — o aluno implementou a solução — mas contribuiu das seguintes formas:
 
