@@ -203,4 +203,3 @@ O desenvolvimento contou com o auxílio do **Claude (Anthropic)** como ferrament
 - **Revisão de código:** após cada implementação do aluno, apontou os bugs encontrados (falta de `def`, função não chamada, `list.pop()` com argumento incorreto, `range` errado, import incorreto) sem reescrever o código.
 - **Correção de imports:** após a reorganização dos arquivos para a pasta `src/`, identificou o problema com `from no import Coluna` e aplicou a correção para imports relativos (`from .no import Coluna`).
 - **Implementação da interface:** a pedido do aluno, implementou a parte do `main.py` responsável por perguntar quantas rainhas pré-colocar e em qual linha cada uma deve ficar.
-# 8-queens-puzzle
